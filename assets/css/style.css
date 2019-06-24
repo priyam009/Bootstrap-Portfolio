@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background-image: url("../images/fabric.png");
 }
@@ -7,19 +12,41 @@ body {
   font-size: 25px;
 }
 
-.wrapper {
-  max-width: 900px;
-}
-
 .about-para {
   line-height: 1.5em;
   color: #777;
 }
 
-.wrapper h4 {
+.section-wrapper {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.heading-name {
   color: #4aaaa5;
 }
 
-.wrapper hr {
-  border-top: 1px solid #D3D3D3;
- }
+.portfolio-detail h5 {
+  bottom: 40px;
+  background: #4aaaa5;
+}
+
+.form-group label {
+  color: #777;
+}
+
+.form-button {
+  background: #4aaaa5;
+}
+
+.footer {
+  bottom: 0px;
+  height: 50px;
+  border-top: 6px solid #4aaaa5;
+  background-color: #777;
+}
+
+.footer span {
+  font-size: 12px;
+  top: 20px;
+}
